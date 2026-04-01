@@ -1,6 +1,8 @@
 import sqlite3
 from sqlite3 import Error
 
+
+
 DB_NAME = "tickets.db"
 
 def create_connection():
@@ -38,6 +40,8 @@ def add_ticket(title, description):
 
     conn.commit()
     conn.close()
+
+# Handles SQLite connections and CRUD operations for tickets
 
 def get_all_tickets():
     conn = create_connection()
