@@ -8,6 +8,8 @@ from database import (
     delete_ticket
 )
 
+# Improved CLI menu formatting and user flow
+
 def print_menu():
     print("\n" + "=" * 40)
     print("          TICKETING SYSTEM")
