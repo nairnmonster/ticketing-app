@@ -1,8 +1,6 @@
 import sqlite3
 from sqlite3 import Error
 
-
-
 DB_NAME = "tickets.db"
 
 def create_connection():
